@@ -1,0 +1,44 @@
+/* Configuração Geral */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: blueviolet;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Container do Currículo */
+main {
+    background-color: white;
+    width: 100%;
+    max-width: 800px; 
+    padding: 40px;
+    margin: auto;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+
+h1 {
+    color: #4b0082;
+    margin-bottom: 5px;
+}
+
+h2 {
+    border-bottom: 2px solid blueviolet;
+    color: #333;
+    padding-bottom: 5px;
+    margin-top: 25px;
+}
+
+
+ul {
+    line-height: 1.6;
+}
+
+p {
+    line-height: 1.5;
+    color: #444;
+}
