@@ -54,9 +54,20 @@ article img {
 
 main {
     background-color: white !important;
-    display: block; 
-    margin: 20px auto;
-    padding: 30px;
-    border-radius: 8px;
-    max-width: 800px;
+    display: block !important;      
+    margin: 20px auto !important;     
+    padding: 30px !important;
+    border-radius: 8px !important;
+    max-width: 800px !important;
+    color: #333 !important;         
+}
+
+
+main h1 {
+    color: #4b0082 !important;
+}
+
+
+main p {
+    color: #444 !important;
 }
