@@ -42,12 +42,21 @@ p {
     line-height: 1.5;
     color: #444;
 }
-/* Isso vai dar espaço e arredondar as pontas da imagem */
+
 article img {
     width: 100%;
     max-width: 100%;
     height: auto;
     border-radius: 8px;
     margin-top: 20px;
-    border: 1px solid #eee; /* Uma bordinha bem clara */
+    border: 1px solid #eee; 
+}
+
+main {
+    background-color: white !important;
+    display: block; 
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 800px;
 }
